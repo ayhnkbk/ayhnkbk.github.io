@@ -1,16 +1,49 @@
-.container {
-    height: 100%;
-    width: 100%;
-    position: relative;
-  }
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 20, 0);
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
 
-.center{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    display: inline;
+}
 
-.text {
-    text-align: center
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:not(.title-a):hover {
+    color: rgb(149, 255, 139);
+    text-decoration: underline;
+    transition: color .3s;
+}
+
+p {
+    /* font-weight: bold; */
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-block-end: .5em;
+    margin-block-start: .5em;
+    color: rgb(0, 255, 0);
+}
+
+h3 {
+    font-size: 2em;
+    margin-block-end: .5em;
+    margin-block-start: .5em;
+    color: rgb(0, 255, 0);
+}
+
+li {
+    font-size: 1.5em;
 }
