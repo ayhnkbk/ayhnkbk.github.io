@@ -1,0 +1,34 @@
+<head>
+    <title>Ayhan's Website</title>
+    <script type="text/javascript">
+    function changetext(){
+        document.getElementById("text").innerHTML = "ok go now"
+    };
+    function defaulttext(){
+        document.getElementById("text").innerHTML = "I'll put something here soon."
+    };
+    </script>
+</head>
+
+<style>
+    .container {
+      height: 100%;
+      width: 100%;
+      position: relative;
+    }
+
+    .center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+
+<body style="background-color:#333d4d">
+    <div class="container">
+        <div class="center">
+            <p class="text" id="text" style="font: 4em arial; color:aliceblue;" onmouseover="changetext()" onmouseout="defaulttext()">I'll put something here soon.</p>
+        </div>
+    </div>
+</body>
